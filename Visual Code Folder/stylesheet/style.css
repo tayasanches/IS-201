@@ -1,0 +1,90 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url(img/ice\ cream\ background.avif); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: rgba(26, 49, 7, 0.522); /* Makes the text readable on a dark background */
+    text-indent: 60px; /* Indents all text by 20px */
+}
+ol, ul {
+    font-weight: bold;
+    padding-left: 60px; /* Adjusts the space for bullets/numbers */
+    margin-left: 0; /* Removes default margin */
+}
+li,{
+    text-indent: 0%; /* Ensures list items are not further indented */
+}
+a{ 
+    color:rgba(151, 70, 70, 0.508)
+    background-color: gray;
+}
+img {
+    
+    border: 5px solid blue; /* Adds a blue border around the image */
+    padding: 5px; /* Adds padding inside the border */
+    height: 250px; /* Sets a fixed height for the image */
+}
+.image-container {
+    text-align: center; /* Centers the images horizontally */
+}
+.image-container img {
+    display: inline-block; /* Makes the images appear side by side */
+    height: 150px; /* Adjust the height of the images */
+    width: auto; /* Maintain the aspect ratio */
+    margin: 10px; /* Adds space between the images */
+    border: 2px solid blue; /* Optional: Add a border for styling */
+    padding: 5px; /* Optional: Add padding inside the border */
+}
+.rizz {
+    font-family: yellow;
+    color: hotpink;
+    border: 5px dashed red;
+    font-size: 400%;
+    font-weight: bolder; 
+    background-color: rgb(84, 133, 179)
+}
+.rizz:hover {
+    color: rgb(212, 227, 189);
+    background-color: rgb(255, 255, 255);
+    font-size: 400%;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+li {
+    width: fit-content;
+}
+li:hover {
+    text-decoration: underline;
+    background-color:rgb(84, 133, 179);
+}
+h1 {
+    color: rgba(26, 49, 7, 0.522);
+    text-align: center;
+}
+h2 {
+    color: rgba(26, 49, 7, 0.522);
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+.footer {
+    bottom: 0px;
+    left: 0px;
+    right: 0px; 
+    font-size: 80%;
+    font-style: italic;
+    text-align: center;
+    background-color: rgba(121, 105, 84, 0.514);
+    position: fixed;
+}
+.nav {
+    position: absolute; 
+    top: 0px; 
+    right: 0px; 
+    font-size: 75%; 
+    text-align: left; 
+    padding: 10px; 
+    background-color: rgba(121, 105, 84, 0.514); 
+}
